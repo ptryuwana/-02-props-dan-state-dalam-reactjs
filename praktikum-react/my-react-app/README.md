@@ -68,3 +68,121 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+## Laporan Praktikum
+
+|  | Pemrograman Berbasis Framework 2024 |
+|--|--|
+| NIM |  2241720089 |
+| Nama |  Putra Nindya Yuwana |
+| Kelas | TI - 3C |
+
+
+### Praktikum 1: Menyiapkan Lingkungan
+
+1. Pastikan Node.js dan npm sudah terinstal di komputer
+
+![Screenshot](assets-report/p1-no1.png)
+
+2. Buat direktori baru untuk proyek React
+
+![Screenshot](assets-report/p1-no2.png)
+
+3. Inisialisasi proyek React	 
+
+![Screenshot](assets-report/p1-no3.png)
+
+4. Jalankan aplikasi React	 
+
+![Screenshot](assets-report/p1-no4.png)
+
+
+### Praktikum 2: Membuat Komponen React
+
+1. Buka file src/App.js di text editor.
+
+![Screenshot](assets-report/p2-no1.png)
+
+2. Ganti kode di dalamnya dengan kode berikut untuk membuat komponen sederhana:	 
+
+![Screenshot](assets-report/p2-no2.png)
+
+3. Simpan file dan lihat perubahan di browser. Kita akan melihat tampilan sederhana dengan header, konten utama, dan footer.	 
+
+![Screenshot](assets-report/p2-no3.png)
+
+
+### Praktikum 3: Menggunakan JSX untuk Membuat Komponen Dinamis
+
+1. Buat file baru di direktori src dengan nama Counter.js.
+
+![Screenshot](assets-report/p3-no1.png)
+
+2. Tambahkan kode berikut untuk membuat komponen Counter yang dinamis:	 
+
+![Screenshot](assets-report/p3-no2.png)
+
+3. Buka file src/App.js dan impor komponen Counter:	 
+
+![Screenshot](assets-report/p3-no3.png)
+
+4. Tambahkan komponen Counter ke dalam komponen App:	 
+
+![Screenshot](assets-report/p3-no4.png)
+
+5. Simpan file dan lihat perubahan di browser. Kita akan melihat tombol "Tambah" yang dapat meningkatkan hitungan saat diklik.	 
+
+![Screenshot](assets-report/p3-no5.png)
+
+
+### Praktikum 4: Menggunakan Props untuk Mengirim Data
+
+1. Buat file baru di direktori src dengan nama Greeting.js.
+
+![Screenshot](assets-report/p4-no1.png)
+
+2. Tambahkan kode berikut untuk membuat komponen Greeting yang menerima props:	 
+
+![Screenshot](assets-report/p4-no2.png)
+
+3. Buka file src/App.js dan impor komponen Greeting:	 
+
+![Screenshot](assets-report/p4-no3.png)
+
+4. Tambahkan komponen Greeting ke dalam komponen App dan kirim props name:
+
+![Screenshot](assets-report/p4-no4.png)
+
+5. Simpan file dan lihat perubahan di browser. Kita akan melihat pesan "Halo, Putra!" yang ditampilkan oleh komponen Greeting.	 
+
+![Screenshot](assets-report/p4-no5.png)
+
+
+### Praktikum 5: Menggunakan State untuk Mengelola Data
+
+1. Buka file src/App.js dan tambahkan kode berikut untuk membuat komponen yang mengelola state:
+
+![Screenshot](assets-report/p5-no1.png)
+
+2. Tambahkan komponen Example ke dalam komponen App:
+
+![Screenshot](assets-report/p5-no2.png)
+
+3. Simpan file dan lihat perubahan di browser. Kita akan melihat form input yang dapat mengupdate state dan menampilkan data yang dimasukkan.	 
+
+![Screenshot](assets-report/p5-no3.png)
+
+
+### Tugas
+
+1. Buat komponen baru bernama TodoList yang menampilkan daftar tugas (todo list). Gunakan state untuk mengelola daftar tugas dan props untuk mengirim data tugas ke komponen anak.	 
+2. Tambahkan fitur untuk menambahkan tugas baru ke dalam daftar menggunakan form input.	
+3. Implementasikan fitur untuk menghapus tugas dari daftar.
+
+#### Kode
+![Screenshot](assets-report/tugas.png)
+
+#### Output
+![Screenshot](assets-report/hasil-tugas.png)
